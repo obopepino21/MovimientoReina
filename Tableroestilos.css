@@ -1,0 +1,84 @@
+/* Estilos para las casillas */
+.casilla-blanca {
+  background-color: white;
+}
+
+.casilla-negra {
+  background-color: gray;
+  color: white;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+}
+td {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* Estilo imagen */
+.EstiloImagen {
+  width: 30px;
+  height: 45px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: #d3ddf9;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 20px; /* Añadimos un margen a la derecha */
+}
+
+.container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container input {
+  width: calc(100% - 20px);
+  padding: 9px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.container button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(18, 20, 184);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #8084f4;
+}
+
+.posiblemovimiento {
+  background-color: green;
+}
+
+.movimientoImposible{
+  background-color: red;
+}
