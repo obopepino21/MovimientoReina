@@ -43,5 +43,6 @@ function MovimientoPosible() {
 }
 function MovimientoImposible() {
   this.classList.toggle("movimientoImposible");
+  
 }
 
